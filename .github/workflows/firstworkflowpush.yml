@@ -1,0 +1,10 @@
+name: my_first_workflow_push_automation
+
+on: [push]
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print welcome message
+        run: echo "welcome to the world of GitHub Actions..!"
