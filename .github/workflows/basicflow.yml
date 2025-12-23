@@ -12,5 +12,7 @@ jobs:
 
       - name: Show all files
         run: |
+          cd .github
+          cd workflows
           ls -l
           ls -la
