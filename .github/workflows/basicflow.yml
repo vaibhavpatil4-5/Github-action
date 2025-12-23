@@ -1,0 +1,10 @@
+name: basicflow
+on: push
+jobs:
+  my_first_job:
+    runs_on: ubuntu_latest
+    steps:
+      - name: show all files
+        run : |
+                ls -l 
+                ls -la 
