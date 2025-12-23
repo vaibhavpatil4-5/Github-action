@@ -7,6 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print welcome message
-        run: |
-              cat ls 
-              cat ls -a 
+        run: echo "welcome to the world of GitHub Actions..!"

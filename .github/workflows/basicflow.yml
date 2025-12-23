@@ -16,3 +16,7 @@ jobs:
           cd workflows
           ls -l
           ls -la
+      - name: setup  nodejs version 
+        uses: actions/setup-node@v4
+      - name: checkout nodejs version 
+        run : node -v 
